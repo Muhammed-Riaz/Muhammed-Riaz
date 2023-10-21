@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(apple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .log1 {
+    background-color: white;
+    margin-top: -54px;
+  }
+  .log1 img {
+    border-radius: 50px;
+    height: 61px;
+    width: 117px;
+    margin-left: 60px;
+  }
+  .list {
+    padding-left: 330px;
+    background-color: white;
+    height: 35px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .logo p a {
+    text-decoration: none;
+  }
+  .logo p a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: violet;
+  }
+  .btn1 {
+    text-align: end;
+    background-color: white;
+    margin-right: 22px;
+    width: 100%;
+  }
+  .btn1 button {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    margin-top: 25px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .btn1 button:hover {
+    color: white;
+    background-color: blue;
+    box-shadow: 2px 2px 2px red;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  ul li a {
+    text-decoration: none;
+  }
+  .list ul li a:hover {
+    color: white;
+    background-color: violet;
+    text-decoration: underline;
+  }
+  .sale {
+    text-align: center;
+    font-size: larger;
+    color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .btn {
+    text-align: center;
+  }
+  .btn button {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 120px;
+    height: 42px;
+    margin-top: 25px;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  .btn button:hover {
+    color: black;
+    background-color: red;
+    box-shadow: 2px 2px 2px gold;
+  }
+  .offer {
+    text-align: center;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  nav {
+    width: 90%;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 35px;
+  }
+  nav img:hover {
+    box-shadow: 5px 3px 3px red;
+    border-radius: 20px;
+  }
+  .offer1 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+  }
+  .btn4 {
+    text-align: center;
+    width: 285px;
+  }
+  .btn4 button {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 91px;
+    height: 40px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .btn4 button:hover {
+    color: white;
+    background-color: red;
+    box-shadow: 2px 2px 2px gold;
+  }
+  .offer2 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+  }
+  .offer3 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+  }
+  .offer4 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+  }
+  .offer5 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+  }
+  .offer6 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+  }
+  .offer1 {
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .offer2 {
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .offer3 {
+    width: 330px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .offer4 {
+    width: 508px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .offer5 {
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .offer6 {
+    width: 438px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .box {
+    width: 90%;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 35px;
+  }
+  .box img:hover {
+    box-shadow: 5px 3px 3px red;
+    border-radius: 20px;
+  }
+  .sign {
+    text-align: center;
+  }
+  .sign button:hover {
+    color: black;
+    background-color: red;
+    box-shadow: 2px 2px 2px gold;
+  }
+  .sign button {
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    width: 190px;
+    height: 57px;
+    margin-top: 25px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  footer {
+    column-count: 4;
+    margin-left: 60px;
+    height: 70vh;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .last {
+    justify-content: space-between;
+  }
+  .contect {
+    text-align: center;
+    background-color: pink;
+    color: black;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .copy {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  .copy1 {
+    text-align: center;
+    background-color: darkseagreen;
+    justify-content: center center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+  }
+  
